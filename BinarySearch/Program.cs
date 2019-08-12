@@ -28,24 +28,6 @@ namespace BinarySearch
             }
             return -1;
         }
-        //private static int binarySearch(int[] array, int item)
-        //{
-        //    int left = 0;
-        //    int right = array.Length - 1;
-        //    while (left <= right)
-
-        //    {
-        //        var middle = (left + right) / 2;
-
-        //        if (array[middle]== item)
-        //            return middle;
-        //        if (item < array[middle])
-        //            right = middle - 1;
-        //        else left = middle + 1;
-
-        //    }
-        //    return -1;
-        //}
         private static int BinarySearchRecursive(int[] array, int item)
         {
             return BinarySearchRecursive(array, 0, array.Length - 1, item);
